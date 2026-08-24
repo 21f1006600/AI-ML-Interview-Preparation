@@ -15,7 +15,7 @@ Ans. LLM has its own limitations.
 
 ## Q3 Explain RAG Pipeline?
 
-Ans. Documents → Chunking → Embeddings → Convert those embeddings into vector database → User Query → Query Embedding → Retrieval → Relevant Chunks → Prompt + Context → give it to LLM → Output
+Ans. Documents → Chunking → Embeddings → Store those embeddings into vector database → User Query → Query Embedding → Retrieval → Relevant Chunks → Prompt + Context → give it to LLM → Output
 
 1. **Data Ingestion**– collect and preprocess documents
 2. **Chunking** – split content into manageable segments
