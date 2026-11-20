@@ -21,6 +21,7 @@ Ans. Attention lets model decide which parts of the inputs are important when pr
 
 - "The animal didn't cross the road because **it** was tired."
 - When interpreting **"it"**, attention can assign more importance to **animal** than **road**.
+- Self-attention helps an LLM understand relationships between different tokens in a sequence. It assigns attention weights to other tokens based on their relevance to the current token, allowing the model to capture context and resolve relationships such as pronoun references.
 
 ## Q3 What is Self Attention?
 
